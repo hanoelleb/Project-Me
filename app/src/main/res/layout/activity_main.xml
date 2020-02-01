@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/zodWest"
+        android:layout_width="139dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="selectPersonalityTest"
+        android:text="@string/zodWest"
+        app:layout_constraintBottom_toTopOf="@+id/myersBriggs"
+        app:layout_constraintEnd_toStartOf="@+id/zodEast"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/zodEast"
+        android:layout_width="139dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:onClick="selectPersonalityTest"
+        android:text="@string/zodEast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/zodWest"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/myersBriggs"
+        android:layout_width="139dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="selectPersonalityTest"
+        android:text="@string/myersBriggs"
+        app:layout_constraintBottom_toTopOf="@+id/fourTemp"
+        app:layout_constraintEnd_toStartOf="@+id/enneagram"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zodWest" />
+
+    <Button
+        android:id="@+id/enneagram"
+        android:layout_width="139dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:onClick="selectPersonalityTest"
+        android:text="@string/enneagram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/myersBriggs"
+        app:layout_constraintTop_toBottomOf="@+id/zodEast" />
+
+    <Button
+        android:id="@+id/fourTemp"
+        android:layout_width="139dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="selectPersonalityTest"
+        android:text="@string/fourTemp"
+        app:layout_constraintBottom_toTopOf="@+id/loveLang"
+        app:layout_constraintEnd_toStartOf="@+id/bigFive"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myersBriggs" />
+
+    <Button
+        android:id="@+id/loveLang"
+        android:layout_width="139dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="selectPersonalityTest"
+        android:text="Love Language"
+        app:layout_constraintEnd_toStartOf="@+id/bigFive"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myersBriggs" />
+
+    <Button
+        android:id="@+id/bigFive"
+        android:layout_width="139dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:onClick="selectPersonalityTest"
+        android:text="@string/bigFive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fourTemp"
+        app:layout_constraintTop_toBottomOf="@+id/enneagram" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

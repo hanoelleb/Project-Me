@@ -1,0 +1,68 @@
+<resources>
+    //misc
+    <string name="ret">Back</string>
+    //all the aspects of personality
+    <string name="app_name">Idee</string>
+    <string name="zodWest">Zodiac (Western)</string>
+    <string name="zodEast">Zodiac (Eastern)</string>
+    <string name="myersBriggs">Myers-Briggs</string>
+    <string name="enneagram">Enneagram</string>
+    <string name="fourTemp">Four Temperaments</string>
+    <string name="bigFive">Big Five</string>
+    //western zodiac
+    <string name="aqu">Aquarius</string>
+    <string name="pis">Pisces</string>
+    <string name="ari">Aries</string>
+    <string name="tau">Taurus</string>
+    <string name="gem">Gemini</string>
+    <string name="can">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="vir">Virgo</string>
+    <string name="lib">Libra</string>
+    <string name="sco">Scorpio</string>
+    <string name="sag">Sagittarius</string>
+    <string name="cap">Capricorn</string>
+    //eastern zodiac
+    <string name="rat">Rat</string>
+    <string name="oxe">Ox</string>
+    <string name="tig">Tiger</string>
+    <string name="rab">Rabbit</string>
+    <string name="dra">Dragon</string>
+    <string name="sna">Snake</string>
+    <string name="hor">Horse</string>
+    <string name="she">Sheep</string>
+    <string name="mon">Monkey</string>
+    <string name="roo">Rooster</string>
+    <string name="dog">Dog</string>
+    <string name="pig">Pig</string>
+    //myers-briggs
+    <string name="intro">Introverted</string>
+    <string name="extro">Extroverted</string>
+    <string name="sens">Sensing</string>
+    <string name="intui">Intuition</string>
+    <string name="think">Thinking</string>
+    <string name="feel">Feeling</string>
+    <string name="judge">Judgement</string>
+    <string name="percept">Perception</string>
+    //four temperaments
+    <string name="melan">Melancholic</string>
+    <string name="phlegm">Phlegmatic</string>
+    <string name="sang">Sanguine</string>
+    <string name="choler">Choleric</string>
+    //big five
+    <string name="open">Openness</string>
+    <string name="cons">Conscientiousness</string>
+    <string name="extra">Extraversion</string>
+    <string name="agree">Agreeableness</string>
+    <string name="neuro">Neuroticism</string>
+    //enneagram
+    <string name="one">Type 1</string>
+    <string name="two">Type 2</string>
+    <string name="three">Type 3</string>
+    <string name="four">Type 4</string>
+    <string name="five">Type 5</string>
+    <string name="six">Type 6</string>
+    <string name="seven">Type 7</string>
+    <string name="eight">Type 8</string>
+    <string name="nine">Type 9</string>
+</resources>

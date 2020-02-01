@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="westernZodiac" >
+        <item>@string/aqu</item>
+        <item>@string/pis</item>
+        <item>@string/ari</item>
+        <item>@string/tau</item>
+        <item>@string/gem</item>
+        <item>@string/can</item>
+        <item>@string/leo</item>
+        <item>@string/vir</item>
+        <item>@string/lib</item>
+        <item>@string/sco</item>
+        <item>@string/sag</item>
+        <item>@string/cap</item>
+    </string-array>
+
+    <string-array name="easternZodiac">
+        <item>@string/rat</item>
+        <item>@string/oxe</item>
+        <item>@string/tig</item>
+        <item>@string/rab</item>
+        <item>@string/dra</item>
+        <item>@string/sna</item>
+        <item>@string/hor</item>
+        <item>@string/she</item>
+        <item>@string/mon</item>
+        <item>@string/roo</item>
+        <item>@string/dog</item>
+        <item>@string/pig</item>
+    </string-array>
+
+    <string-array name="enneagram">
+        <item>@string/one</item>
+        <item>@string/two</item>
+        <item>@string/three</item>
+        <item>@string/four</item>
+        <item>@string/five</item>
+        <item>@string/six</item>
+        <item>@string/seven</item>
+        <item>@string/eight</item>
+        <item>@string/nine</item>
+    </string-array>
+</resources>

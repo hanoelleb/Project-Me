@@ -41,7 +41,14 @@ public class ZodWestActivity extends AppCompatActivity implements AdapterView.On
         @Override
         protected void onPostExecute(Document doc) {
             // execution of result here
-            Element paragraphs = doc.select("p").first();
+            Elements paragraphs = doc.select("p");
+
+            Log.d("message", String.valueOf(doc.select("p").size()));
+            //Log.d("message", paragraphs.text());
+
+            for (Element p : paragraphs) {
+                Log.d("message", p.text());
+            }
             description.setText(paragraphs.text());
         }
     }
@@ -111,21 +118,6 @@ public class ZodWestActivity extends AppCompatActivity implements AdapterView.On
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
-    }
-
-    private void setSignText( String sign ) {
-        String website = "https://www.astrology.com/astrology-101/zodiac-signs/";
-        Document doc = null;
-        try {
-            doc = Jsoup.connect(website + sign).get();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        Element paragraphs = doc.select("p").first();
-        Log.d("message", String.valueOf(doc.select("p").size()));
-        Log.d("message", paragraphs.text());
-        description.setText(paragraphs.text());
     }
 }
 

@@ -30,12 +30,13 @@
     <string name="dra">Dragon</string>
     <string name="sna">Snake</string>
     <string name="hor">Horse</string>
-    <string name="she">Sheep</string>
+    <string name="goa">Goat</string>
     <string name="mon">Monkey</string>
     <string name="roo">Rooster</string>
     <string name="dog">Dog</string>
     <string name="pig">Pig</string>
     //myers-briggs
+    <string name="info">Info</string>
     <string name="intro">Introverted</string>
     <string name="extro">Extroverted</string>
     <string name="sens">Sensing</string>
